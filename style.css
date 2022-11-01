@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@400;600&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+    background: linear-gradient(to right, #fc00ff, #0021de); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'poppins',sans-serif;
+}
+.const{
+    height: 100vh;
+}
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.container .btn{
+    background-color: #cc00ff;
+    position: absolute;
+    right: 3rem;
+}
+#logo{
+    height: 10rem;
+    
+}
+#logo:hover{
+    filter: brightness(120%);
+}
+.content{
+    text-align: center;
+    padding:1rem auto;
+    margin-top: 7rem;
+}
+.content h1{
+    font-weight: 400;
+    font-size: 3rem;
+}
+.mid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.anim-1{
+    position: absolute;
+    left: 36rem;
+    top: 0.2rem;
+}
+.anim-2{
+    position: absolute;
+    right: 1.5rem;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid #3f5efb;
+    border-radius: 9px;
+    background-color: #fff;
+    padding: 5px;
+    align-items: center;
+    margin-top: 2rem ;
+}
+.btn{
+    font-weight: 500;
+    width: 16rem;
+    height: 3rem;
+    color: black;
+    background-color:#3f5efb ;
+    font-size: 1rem;
+    border: 2px solid blue;
+    border-radius: 20px;
+    margin: 7px 1px;
+}
+.btn:hover{
+    color: #3f5efb;
+    background-color: white;
+    box-shadow: 3px 4px 5px rgb(140, 125, 194);
+
+}
+.box img{
+    border: 5px solid #000000 ;
+    border-radius: 100%;
+    height: 8rem;
+    transition: all 0.5s ease;
+}
+.box:hover img{
+    box-shadow: 4px 4px 3px rgb(140, 143, 145);
+    height: 8.3rem;
+    z-index: 1;
+}
+.box:hover{
+    height: 21rem;
+    transition: all 0.5s ease;
+
+}
+.mainimg{
+    margin-bottom: 20px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    
+}
+ 
