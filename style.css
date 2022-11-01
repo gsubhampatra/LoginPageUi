@@ -11,7 +11,9 @@ body{
     font-family: 'poppins',sans-serif;
 }
 .const{
-    height: 100vh;
+    height: 100vh;;
+
+     
 }
 .container{
     align-items: center;
@@ -105,7 +107,7 @@ body{
 }
 footer{
     position: absolute;
-    bottom: 0;
+     bottom: 0;
     height: 20px;
     width: 100vw;
     text-align: center;
@@ -114,4 +116,36 @@ footer{
     color: #fff;
     
 }
- 
+ @media (max-width:500px) {
+    .anim-2{
+        display: none;
+    }
+    .anime-1{
+        display: none;
+
+    }
+    footer{
+        position: absolute;
+        bottom: -132px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .btn{
+        position: absolute;
+        width: 60%;
+        top: 10rem;
+        left: 5rem;
+    
+    }
+    .const{
+        max-height: fit-content;
+        overflow-x: hidden;
+        width: fit-content;
+
+    }
+    body{
+        height: 795px;
+    }
+    
+ }
