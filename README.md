@@ -1,5 +1,5 @@
-
-	<
+<html>
+	<body>
 		<h1>Simple Login Page with Lottie Animation</h1>
 		
 	
@@ -11,4 +11,5 @@
 		</ul>
 		<p>License:</p>
 		<p>This login page is licensed under the MIT License. See the LICENSE file for more information.</p>
-
+</body>
+</html>
