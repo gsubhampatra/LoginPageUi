@@ -13,7 +13,7 @@
 <img align="center" src="https://github.com/gsubhampatra/LoginPageUi/blob/main/images/mobileview.png?raw=true" height="500px"/> 
 
 <h4>Desktop View</h4>
-<img src="https://github.com/gsubhampatra/LoginPageUi/blob/main/images/webview.png?raw=true" height="500px"/> 
+<img src="https://github.com/gsubhampatra/LoginPageUi/blob/main/images/webview.png?raw=true" width="500px"/> 
 
 ## Features
 <h4 align="left">This login page includes the following features:</h4>
